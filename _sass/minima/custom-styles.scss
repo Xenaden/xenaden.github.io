@@ -1,0 +1,32 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+
+
+/**
+ * Tags
+ */
+.tags {
+  float: right; 
+}
+
+.tag {
+  color: $link-base-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $link-visited-color;
+  }
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+}  
+.tag-head {
+  margin-bottom: 0px;
+}
+
+.archive-tag h4 {
+  margin-top: 0px;
+}
