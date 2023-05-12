@@ -1,8 +1,8 @@
-title: Tar's Blog
+title: Tom's Blog
 permalink: /:categories/:title/
 author:
-  name: Tarmosi
-  email: jxwaiting@gmail.com
+  name: Thomas
+  email: Xenaden@aliyun.com
 description: > # this means to ignore newlines until "show_excerpts:"
   很惭愧，只做了一点微小的工作
 show_excerpts: false # set to true to show excerpts on the homepage
