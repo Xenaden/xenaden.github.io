@@ -29,6 +29,10 @@ github_username:  Xenaden
 
 # Build settings
 theme: minima
+minima:
+  skin:
+  timezone: Asia/Hong_Kong
+  date_format: "%Y %b %d, %R"
 plugins:
   - jekyll-feed
 
