@@ -21,7 +21,7 @@
 title: Tom's blogs
 email: xenaden@aliyun.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I don't create tools, I just make good use of tools.
+  I don't create tools, I just make good use of them.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: 
