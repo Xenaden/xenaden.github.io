@@ -19,22 +19,29 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Tom's blogs
-email: xenaden@aliyun.com
+author:
+  name: Thomas
+  email: xenaden@aliyun.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I don't create tools, I just make good use of them.
+  我不生产工具，我只是工具的使用工。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://xenaden.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: 
 github_username:  Xenaden
 
 # Build settings
 theme: minima
+
 minima:
   skin:
   timezone: Asia/Hong_Kong
   date_format: "%Y %b %d, %R"
+  social_links:
+    - { platform: github,         user_url: "https://github.com/Xenaden/xenaden.github.io" }
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
