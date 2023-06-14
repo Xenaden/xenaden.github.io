@@ -4,7 +4,7 @@ title: 在GitHub Pages 上搭建你的个人博客
 date: 2022-12-11 10:36
 modified_date:
 categories: some-practice
-tag: [github-pages, jekyll, git]
+tag: [Github-Pages, Jekyll, git]
 ---
 本篇大概简述一下使用[GitHub Pages](https://pages.github.com/) 搭建静态的个人博客，并在Ubuntu 中同步、修改GitHub Pages 相关连的仓库，还有关于[Jekyll](https://jekyllrb.com/) 主题的部分自定义。
 

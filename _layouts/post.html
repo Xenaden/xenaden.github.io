@@ -27,7 +27,7 @@ layout: default
       <span class="tags">
         {%- if page.tags -%}
       	  {% for tag in page.tags %}
-  	  <a class="tag" href="{{ site.baseurl }}/tags/#{{ tag |slugize }}" target="_blank">{{ tag | capitalize -}}</a>
+  	  <a class="tag" href="{{ site.baseurl }}/tags/#{{ tag |slugize }}" target="_blank">{{ tag -}}</a>
 	  {% endfor %}
 	{%- endif-%}
       </span></p>
