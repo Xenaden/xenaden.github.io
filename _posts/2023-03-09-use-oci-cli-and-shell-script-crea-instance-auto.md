@@ -127,7 +127,7 @@ $(echo Instance create successfully | mail -s Oci-cli yourmail@domain.com)
 <br>
 
 #### 题外话
-由于我的机子，debian，默认系统时间是12小时制，但crontab 是按24小时制来执行任务的 [^]。
+由于我的机子，debian，默认系统时间是12小时制，但crontab 是按24小时制来执行任务的 [^24-hour_time_format]。
 > It seems the reason for this change is that in buster the en_US locale is >updated. Since it is meant to represent US customs, which is to specify time in >the 12 hour format, time is 
 > now shown as such, even though it may come as a >surprise to everyone who has relied on the old behavior.
 > 
